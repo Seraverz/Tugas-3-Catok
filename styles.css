@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas 2</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Warna latar belakang abu-abu muda */
+      color: #333333; /* Warna teks utama */
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h3, h5 {
+      color: #4a4a4a; /* Warna abu-abu untuk heading */
+      margin-bottom: 20px;
+    }
+
+    hr {
+      border: 1px solid #d3d3d3; /* Warna abu-abu untuk garis pemisah */
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: #ffffff; /* Background putih untuk tabel */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan ringan untuk tabel */
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #cccccc; /* Warna border abu-abu terang */
+    }
+
+    th {
+      background-color: #f4f4f4; /* Warna latar belakang abu-abu terang untuk header tabel */
+      color: #555555; /* Warna teks abu-abu gelap untuk header */
+    }
+
+    td a {
+      color: #3b3b3b; /* Warna teks abu-abu untuk link */
+      text-decoration: none;
+    }
+
+    td a:hover {
+      text-decoration: underline; /* Efek hover untuk link */
+    }
+
+    /* Image Styling */
+    img {
+      width: 150px;
+      height: auto;
+      border-radius: 50%; /* Membuat gambar berbentuk bulat */
+      border: 5px solid #e1e1e1; /* Border tipis abu-abu di sekitar gambar */
+    }
+
+    /* Centering elements */
+    center {
+      display: block;
+      margin: 0 auto;
+    }
+
+    ul {
+      list-style-type: none; /* Menghapus bullet point */
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      background-color: #e7e7e7; /* Warna latar belakang abu-abu muda untuk list items */
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      color: #444444;
+    }
+
+    ul li:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Contact Table Styling */
+    .contact-table th {
+      width: 120px;
+      background-color: #f4f4f4;
+    }
+
+    .contact-table td {
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <hr>
+  <center>
+    <h1>Biodata Diri</h1>
+  </center>
+  <hr>
+
+  <center>
+    <img src="https://assets.onecompiler.app/42vs2vkcp/42vs2dsge/WhatsApp%20Image%202024-10-31%20at%2021.56.07_1de7338b%20(1)%20(2).jpg" alt="Foto Profil" />
+  </center>
+  <br>
+
+  <p>
+    Hello! Perkenalkan nama saya Ribka Hana Josephine Situmorang, saya adalah mahasiswa Teknik Informatika Angkatan 23 di Institut Teknologi Sumatera. Saya memiliki ketertarikan untuk menjadi game developer, namun opsi lain pun masih terbuka.
+  </p>
+  <br>
+
+  <center>
+    <table>
+      <tr>
+        <th>Nama</th>
+        <td>Ribka Hana Josephine Situmorang</td>
+      </tr>
+      <tr>
+        <th>Umur</th>
+        <td>19</td>
+      </tr>
+      <tr>
+        <th>Tempat/Tanggal Lahir</th>
+        <td>Jakarta, 07 April 2005</td>
+      </tr>
+      <tr>
+        <th>Alamat</th>
+        <td>Jatiwarna, Bekasi</td>
+      </tr>
+    </table>
+  </center>
+  <br>
+
+  <h3>Education</h3>
+  <ul>
+    <li>Institut Teknologi Sumatera (2023-Sekarang)</li>
+    <li>SMAN 51 Jakarta - Jurusan IPA (2020-2023)</li>
+    <li>SMP Strada Nawar (2017-2020)</li>
+    <li>SD Strada Kampung Sawah (2016-2017)</li>
+    <li>SD Strada Wiyatasana (2011-2016)</li>
+  </ul>
+
+  <h3>Skills</h3>
+  <ul>
+    <li>Microsoft Office</li>
+    <li>C++</li>
+  </ul>
+  <hr>
+
+  <h5>Contact Me</h5>
+  <table class="contact-table">
+    <tr>
+      <th>WA</th>
+      <td>081384334926</td>
+    </tr>
+    <tr>
+      <th>Instagram</th>
+      <td><a href="https://www.instagram.com/ribkajosephinee/profilecard/?igsh=ZG9ydmlnOHVoYmx2">@ribkajosephinee</a></td>
+    </tr>
+    <tr>
+      <th>Twitter</th>
+      <td><a href="https://x.com/SitumorangRibka?t=oPPOxr1br-uliqlC_pS_xg&s=09">seraverz</a></td>
+    </tr>
+  </table>
+
+</body>
+</html>
