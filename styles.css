@@ -14,6 +14,16 @@
       padding: 0;
     }
 
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3d58;
+    padding: 10px 20px;
+    }
+
+    
+
     h1, h3, h5 {
       color: #4a4a4a;
       margin-bottom: 20px;
